@@ -31,4 +31,4 @@ class Menu:
         for item in self.menu:
             if item.name == order_name:
                 return item
-        print("Sorry that item is not available.")
+        print(f"Sorry {order_name} is not available.")
